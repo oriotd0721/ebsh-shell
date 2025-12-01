@@ -1,0 +1,11 @@
+# Ignore build artifacts
+ebsh
+*.o
+*.exe
+
+# Editor and OS files
+*~
+.DS_Store
+
+# IDE
+.vscode/
