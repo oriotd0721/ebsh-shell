@@ -1,4 +1,4 @@
-# ebsh — Mini-shell éducatif
+# ebsh — Mini-shell 
 
 Projet universitaire réalisé par Oriance Oternaud, étudiante en Sciences Informatique à l’Université de Genève (UNIGE).
 
@@ -90,7 +90,7 @@ printf "pwd\ncd ..\npwd\nsleep 1 &\necho after\nexit\n" | ./ebsh
 
 **Contexte académique et objectifs pédagogiques**
 
-Ce projet fait partie d'un travail de cours en Systèmes d'Exploitation et a des objectifs pédagogiques clairement définis :
+Ce projet fait partie d'un travail de cours en Systèmes d'Exploitation (12X009) et a des objectifs pédagogiques clairement définis :
 
 - Créer des processus avec la fonction `fork`.
 - Gérer ces processus, notamment éviter les processus zombies (récolte avec `waitpid` / gestion de `SIGCHLD`).
